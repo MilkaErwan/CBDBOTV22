@@ -1,7 +1,7 @@
 const Discord = require("discord.js") 
 const bot = new Discord.Client()
 
-bot.login('NDUxODY5MDIzNzAxODI3NTk0.DfIImA.TRYQJvwik7OYKF_oHE10dTEAxqY')
+bot.login('process.env.TOKEN')
 
 bot.on('message', function (message) {
     if (message.content === '^livrasons' ) {
